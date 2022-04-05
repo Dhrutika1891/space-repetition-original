@@ -1,0 +1,30 @@
+.card {
+  width: 300px;
+  height: 375px;
+  border: 5px solid rgb(34, 230, 197);
+  margin: auto;
+  background-color: azure;}
+
+.card-body {
+  font-size: 25px;
+  color: rgba(87, 26, 11, 0.945);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 35px;
+  border-bottom: 3px solid rgb(34, 230, 197);
+  color: rgb(23, 0, 128);
+}
+
+.button-container {
+  display: grid;
+  gap: 10px;
+}
+
+.btn{
+  font-size: 20px;
+   size:sm;
+}

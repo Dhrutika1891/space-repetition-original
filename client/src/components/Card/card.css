@@ -1,0 +1,16 @@
+.card-container {
+  width: 250px;
+  height: 370px;
+  background-image: url("https://i.pinimg.com/originals/19/a0/0e/19a00ed9415c0905637b6a2a4aef8651.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  border-radius: 60px;
+  padding: 20px 40px;
+  border: 6px solid rgb(250, 182, 99);
+  font-size: 18px;
+  color: crimson;
+  justify-content: center;
+ position:relative;
+ text-align: center;
+}

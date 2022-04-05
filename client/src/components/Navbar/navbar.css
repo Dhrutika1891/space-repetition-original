@@ -1,0 +1,31 @@
+.navbar-container {
+  display: grid;
+  gap: 10px;
+}
+
+.navbar-container-temp {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-bottom: 2px solid grey;
+}
+
+.navbar-text {
+  color: brown;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.que-ans-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.modal-body {
+  display: grid;
+  gap: 10px;
+}
+
+.error-msg {
+    color: red;
+}
