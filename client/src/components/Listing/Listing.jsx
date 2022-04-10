@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { getCards, updateCards } from "../../services";
 import CardComponent from "../CardComponent/CardComponent";
@@ -9,7 +9,7 @@ const Listing = () => {
   const [reduxData, setReduxData] = useState(null);
   const level = useSelector((state) => state.level);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const fetchCards = async () => {
       const response = await getCards(level);
       setReduxData(response);
