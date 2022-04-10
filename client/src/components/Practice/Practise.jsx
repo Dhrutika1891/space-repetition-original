@@ -22,26 +22,25 @@ const Practice = () => {
 
   return (
     <>
-      <Badge pill bg="success" lg>
-        Practice Cards for level: {level}
-      </Badge>
+      <h1>
+        <Badge pill bg="success" lg>
+          Practice Cards for level: {level}
+        </Badge>
+      </h1>
+
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>Id</th>
             <th>Question</th>
             <th>Answer</th>
-            <th>Current Level</th>
           </tr>
         </thead>
         {level <= 5 ? (
           <tbody>
             {sortedCards.map((item) => (
               <tr key={item.id}>
-                <td>{item.id}</td>
                 <td>{item.question}</td>
                 <td>{item.answer}</td>
-                <td>{item.rememberlevel}</td>
               </tr>
             ))}
           </tbody>
