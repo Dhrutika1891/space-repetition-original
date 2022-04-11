@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Card } from "react-bootstrap";
-import { useState } from "react";
 import "./cardComponent.css";
 
 const CardComponent = ({ card, onAnswer }) => {
