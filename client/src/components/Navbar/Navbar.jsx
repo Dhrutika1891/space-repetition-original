@@ -5,7 +5,6 @@ import { useLocation, Link } from "react-router-dom";
 import { insertCard } from "../../services";
 import { LevelDropdown } from "./LevelDropdown";
 import { getCards } from "../../services";
-// import nextId from "react-id-generator";
 import "./navbar.css";
 
 export const Navbar = () => {
